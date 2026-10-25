@@ -1,0 +1,9 @@
+"""Identifiers and verified GATT values for Rhinocomfort 3 BLE."""
+
+DOMAIN = "rhinocomfort3_ble"
+SERVICE_UUID = "d7f493cb-0a21-4c27-960e-19aaf936bbb6"
+MODE_CHAR_UUID = "b9d6f678-bc0d-4a73-90c8-60b0f07301f1"
+STATE_CHAR_UUID = "438d3433-7e5a-459a-a8e4-66343fad2bb0"
+SANITIZATION_CHAR_UUID = "9ac1033d-3566-4703-ac58-f906835c54a7"
+SCAN_PREFIX = "RHINO3-"
+POLL_SECONDS = 15

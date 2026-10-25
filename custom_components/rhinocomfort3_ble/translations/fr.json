@@ -1,0 +1,61 @@
+{
+  "title": "Fantini Cosmi Rhinocomfort 3 BLE",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rechercher votre Rhinocomfort 3",
+        "description": "Home Assistant recherche les appareils Bluetooth connectables RHINO3-*. Si aucun appareil ne s’affiche, vérifiez le Bluetooth puis validez pour relancer la recherche.",
+        "data": {
+          "address": "Appareil Bluetooth"
+        }
+      },
+      "prepare": {
+        "title": "Vérifier la connexion",
+        "description": "Vérifiez si le Rhinocomfort 3 est déjà appairé via Bluetooth. Aucun nouvel appairage ne sera lancé à cette étape.\n\nAppuyez sur Valider.",
+        "submit": "Valider"
+      },
+      "pairing": {
+        "title": "Appairer le Rhinocomfort 3",
+        "description": "Le Rhinocomfort 3 n'est pas encore appairé via Bluetooth. Appuyez sur Valider pour lancer l'appairage.\n\nLorsque le voyant bleu s'allume, appuyez sur le bouton physique du Rhinocomfort et attendez la confirmation. Aucun code PIN n'est nécessaire. Gardez cette fenêtre ouverte.",
+        "submit": "Valider"
+      },
+      "recovery": {
+        "title": "Connexion non vérifiée",
+        "description": "L’appareil n’a pas répondu correctement. Choisissez une option ; aucun appairage Bluetooth existant n’a été supprimé.",
+        "menu_options": {
+          "prepare": "Réessayer la connexion",
+          "pairing": "Demander l’appairage Bluetooth",
+          "user": "Rechercher à nouveau"
+        }
+      },
+      "pairing_retry": {
+        "title": "Appairer le Rhinocomfort 3",
+        "description": "La tentative {attempt} a échoué. Appuyez sur Réessayer pour recommencer.\n\nLorsque le voyant bleu s'allume, appuyez sur le bouton physique du Rhinocomfort et attendez la confirmation. Aucun code PIN n'est nécessaire. Gardez cette fenêtre ouverte.",
+        "submit": "Réessayer"
+      }
+    },
+    "progress": {
+      "connecting": "Vérification Bluetooth et lecture de l’état…",
+      "pairing": "Appairage Bluetooth en cours. Cela peut prendre jusqu'à 60 secondes. Lorsque le voyant bleu s'allume, appuyez sur le bouton du Rhinocomfort et patientez."
+    },
+    "error": {
+      "no_devices_found": "Aucun Rhinocomfort 3 visible. Vérifiez le Bluetooth et relancez la recherche.",
+      "device_not_found": "L’appareil sélectionné n’est plus visible.",
+      "unsupported_device": "Service GATT attendu introuvable.",
+      "invalid_response": "Réponse du mode Bluetooth invalide.",
+      "cannot_connect": "Échec de la connexion Bluetooth.",
+      "pairing_status_unavailable": "Could not check local Bluetooth pairing. Ensure the device is visible and retry.",
+      "pairing_agent_unavailable": "Could not register a temporary Bluetooth pairing agent.",
+      "pairing_request_failed": "Bluetooth pairing failed. Retry and press the physical button when the blue LED lights.",
+      "pairing_request_timeout": "Pairing timed out.",
+      "pairing_not_confirmed": "Bluetooth has not confirmed a complete bond."
+    },
+    "abort": {
+      "no_devices_found": "Aucun Rhinocomfort 3 détecté.",
+      "device_not_found": "Appareil indisponible.",
+      "not_supported": "Appareil non pris en charge.",
+      "already_configured": "Rhinocomfort 3 déjà configuré."
+    },
+    "flow_title": "{name}"
+  }
+}

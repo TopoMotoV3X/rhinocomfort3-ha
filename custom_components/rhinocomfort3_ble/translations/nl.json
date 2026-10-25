@@ -1,0 +1,61 @@
+{
+  "title": "Fantini Cosmi Rhinocomfort 3 BLE",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Rhinocomfort 3 zoeken",
+        "description": "Home Assistant zoekt verbindbare RHINO3-* Bluetooth-apparaten. Verschijnt er niets, controleer Bluetooth en klik op Verzenden om opnieuw te zoeken.",
+        "data": {
+          "address": "Bluetooth-apparaat"
+        }
+      },
+      "prepare": {
+        "title": "Verbinding controleren",
+        "description": "Controleer of de Rhinocomfort 3 al via Bluetooth is gekoppeld. In deze stap wordt geen nieuwe koppeling gestart.\n\nKlik op Verzenden.",
+        "submit": "Verzenden"
+      },
+      "pairing": {
+        "title": "Rhinocomfort 3 koppelen",
+        "description": "De Rhinocomfort 3 is nog niet via Bluetooth gekoppeld. Klik op Verzenden om het koppelen te starten.\n\nDruk op de fysieke knop van de Rhinocomfort zodra de blauwe led brandt en wacht op bevestiging. Er is geen pincode nodig. Houd dit venster open.",
+        "submit": "Verzenden"
+      },
+      "recovery": {
+        "title": "Verbinding niet bevestigd",
+        "description": "Het apparaat reageerde niet correct. Kies een vervolgstap. Bestaande Bluetooth-koppelingen zijn niet verwijderd.",
+        "menu_options": {
+          "prepare": "Verbinding opnieuw proberen",
+          "pairing": "Bluetooth-koppeling aanvragen",
+          "user": "Opnieuw zoeken naar apparaten"
+        }
+      },
+      "pairing_retry": {
+        "title": "Rhinocomfort 3 koppelen",
+        "description": "Poging {attempt} is mislukt. Klik op Opnieuw proberen.\n\nDruk op de fysieke knop van de Rhinocomfort zodra de blauwe led brandt en wacht op bevestiging. Er is geen pincode nodig. Houd dit venster open.",
+        "submit": "Opnieuw proberen"
+      }
+    },
+    "progress": {
+      "connecting": "Bluetooth-verbinding en apparaatstatus controleren…",
+      "pairing": "Bluetooth-koppeling wordt uitgevoerd. Dit kan tot 60 seconden duren. Druk op de knop van de Rhinocomfort zodra de blauwe led brandt en wacht."
+    },
+    "error": {
+      "no_devices_found": "Geen Rhinocomfort 3 zichtbaar. Controleer Bluetooth en zoek opnieuw.",
+      "device_not_found": "Het geselecteerde apparaat is niet meer zichtbaar.",
+      "unsupported_device": "Vereiste GATT-service ontbreekt.",
+      "invalid_response": "Ongeldig Bluetooth-antwoord.",
+      "cannot_connect": "Bluetooth-verbinding mislukt.",
+      "pairing_status_unavailable": "Could not check local Bluetooth pairing. Ensure the device is visible and retry.",
+      "pairing_agent_unavailable": "Could not register a temporary Bluetooth pairing agent.",
+      "pairing_request_failed": "Bluetooth pairing failed. Retry and press the physical button when the blue LED lights.",
+      "pairing_request_timeout": "Pairing timed out.",
+      "pairing_not_confirmed": "Bluetooth has not confirmed a complete bond."
+    },
+    "abort": {
+      "no_devices_found": "Geen Rhinocomfort 3 gevonden.",
+      "device_not_found": "Apparaat niet beschikbaar.",
+      "not_supported": "Apparaat niet ondersteund.",
+      "already_configured": "Rhinocomfort 3 is al ingesteld."
+    },
+    "flow_title": "{name}"
+  }
+}

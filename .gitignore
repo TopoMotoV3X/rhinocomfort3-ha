@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+secrets.yaml
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+
+# Backups and temporary files
+*.bak
+*.bak.*
+*.backup
+*.pre_*
+*.tmp
+*.swp
+*.orig
+*.tar
+*.tar.gz
+*.zip
+*.db
+*.sqlite
+*.log
+
+# Development environments
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
