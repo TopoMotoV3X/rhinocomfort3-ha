@@ -1,14 +1,6 @@
 {
   "domain": "rhinocomfort3_ble",
   "name": "Fantini Cosmi Rhinocomfort 3 BLE (Unofficial)",
-  "version": "0.1.0b37",
-  "config_flow": true,
-  "dependencies": [
-    "bluetooth_adapters",
-    "http",
-    "panel_custom",
-    "lovelace"
-  ],
   "bluetooth": [
     {
       "local_name": "RHINO3-*",
@@ -18,9 +10,17 @@
   "codeowners": [
     "@TopoMotoV3X"
   ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters",
+    "http",
+    "panel_custom",
+    "lovelace"
+  ],
   "documentation": "https://github.com/TopoMotoV3X/rhinocomfort3-ha#readme",
   "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/TopoMotoV3X/rhinocomfort3-ha/issues",
   "requirements": [],
-  "issue_tracker": "https://github.com/TopoMotoV3X/rhinocomfort3-ha/issues"
+  "version": "0.1.0b37"
 }
