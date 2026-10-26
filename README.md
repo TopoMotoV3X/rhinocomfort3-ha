@@ -4,7 +4,14 @@
 
 **Version:** 0.1.0b37 (beta)
 
-[Italiano](#italiano) | [English](#english)
+
+![Rhinocomfort 3 BLE per Home Assistant — locandina illustrativa](https://raw.githubusercontent.com/TopoMotoV3X/rhinocomfort3-ha/main/docs/images/rhinocomfort3-poster.png)
+
+**Controllo locale Bluetooth LE · Modalità AUTO/MANUALE · Sanificazione · Card Lovelace · Installazione HACS**
+
+*Locandina illustrativa; nella galleria in fondo trovi le schermate autentiche della card.*
+
+[Italiano](#italiano) | [English](#english) | [Galleria / Screenshots](#galleria--screenshots)
 
 ---
 
@@ -164,3 +171,19 @@ not licensed by the MIT license.
 
 Issues:
 https://github.com/TopoMotoV3X/rhinocomfort3-ha/issues
+
+
+---
+
+## Galleria / Screenshots
+
+Queste quattro immagini sono screenshot reali della card Rhinocomfort 3 BLE, acquisiti su Home Assistant.
+These are actual screenshots of the Rhinocomfort 3 BLE Lovelace card.
+
+| Modalità AUTO — tema scuro | Modalità AUTO — tema chiaro |
+|:--:|:--:|
+| ![Rhinocomfort AUTO dark](https://raw.githubusercontent.com/TopoMotoV3X/rhinocomfort3-ha/main/docs/images/rhinocomfort-auto-dark.png) | ![Rhinocomfort AUTO light](https://raw.githubusercontent.com/TopoMotoV3X/rhinocomfort3-ha/main/docs/images/rhinocomfort-auto-light.png) |
+
+| Modalità MANUALE — tema scuro | Modalità MANUALE — tema chiaro |
+|:--:|:--:|
+| ![Rhinocomfort manual dark](https://raw.githubusercontent.com/TopoMotoV3X/rhinocomfort3-ha/main/docs/images/rhinocomfort-manual-dark.png) | ![Rhinocomfort manual light](https://raw.githubusercontent.com/TopoMotoV3X/rhinocomfort3-ha/main/docs/images/rhinocomfort-manual-light.png) |
